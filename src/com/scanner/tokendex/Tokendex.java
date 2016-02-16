@@ -2,6 +2,7 @@ package com.scanner.tokendex;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.WindowManager;
 
 public class Tokendex extends Activity {
     /**
@@ -10,6 +11,7 @@ public class Tokendex extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        setContentView(R.layout.scanner_view);
     }
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tokendex</string>
+    <string name="result_activity_name">Scan Result</string>
+    <string name="token_name_header">Token Name:</string>
+    <string name="token_link_header">TokenDB Link:</string>
+    <string name="data_loading">Loading…</string>
+    <string name="text_on_token_header">Text on Token:</string>
+    <string name="token_image_description">Image of scanned token.</string>
+    <string name="no_result_toast">No match found for scanned token!</string>
+</resources>
