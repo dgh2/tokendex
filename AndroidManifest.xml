@@ -27,16 +27,15 @@
         android:allowBackup="false"
         android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <activity
-            android:name="Tokendex"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape">
+            android:name="com.scanner.ScannerActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
-            android:name=".ScanResultActivity"
+            android:name="com.scanner.ScanResultActivity"
             android:label="@string/result_activity_name"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
             <meta-data

@@ -1,4 +1,4 @@
-package com.scanner.tokendex;
+package com.scanner;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import com.scanner.tokendex.R;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
